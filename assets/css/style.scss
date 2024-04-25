@@ -1,0 +1,193 @@
+---
+---
+
+@import "main.scss";
+
+:root {
+  --background-color: #0d0d0d;
+  --card-color: #222222;
+  --text-color: white;
+  --chip-color: #b6eada;
+}
+
+#hero {
+  background: var(--background-color);
+}
+.title {
+  //   margin: auto 0.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: auto;
+  text-align: center;
+  color: var(--chip-color);
+}
+.intro {
+  //   margin: auto 0.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: auto;
+  color: var(--chip-color);
+}
+.subtitle {
+  letter-spacing: 0.25rem;
+}
+
+#hero {
+  .image {
+    max-width: 10vmax;
+    margin: auto;
+
+    img {
+      border: 0.25rem solid var(--chip-color);
+    }
+  }
+
+  a {
+    min-width: 10vmax;
+    margin: 0.5rem;
+  }
+}
+.card-content {
+  justify-content: center;
+  background-color: var(--card-color);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: auto;
+  width: auto;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.project-card {
+  box-shadow: var(--chip-color) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  justify-content: center;
+  background-color: var(--card-color);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: auto;
+  width: auto;
+  height: 15rem;
+  margin-bottom: 1rem;
+}
+
+.about-card {
+  justify-content: center;
+  background-color: var(--card-color);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: auto;
+  width: auto;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+}
+
+.fa fa-map-marker {
+  color: var(--chip-color);
+}
+.project-description {
+  font-size: 300;
+  font-weight: 100;
+  color: var(--text-color);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 2px;
+  margin-left: 2rem;
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: " ";
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 15px 25px;
+  padding-left: 30px;
+  color: var(--text-color);
+  font-size: small;
+}
+ul.timeline > li:before {
+  content: " ";
+  background: var(--text-color);
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid var(--chip-color);
+  left: 12px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0 10px;
+  height: 25px;
+  font-size: 12px;
+  line-height: 25px;
+  border-radius: 50px;
+  background-color: var(--chip-color);
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  margin-right: 2%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: 18%;
+  //   left: 30%;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 6px;
+}
+
+.button {
+  border: none;
+  background-color: var(--chip-color);
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px;
+  left: 32%;
+  cursor: pointer;
+}
+
+#bottom {
+  text-align: end;
+  align-items: flex-end;
+}
+
+.Javascript {
+  color: #9a8d3e;
+  font-weight: bold;
+}
+.Python {
+  color: #3572a5;
+  font-weight: bold;
+}

@@ -1,0 +1,13 @@
+<div class="card-content">
+    <h6 class="title has-text-white  is-uppercase ">
+        Tech Stack
+    </h6>
+    {% for member in site.data.technologies %}
+    <div class="chip">
+        <b>{{ member.name }}</b>
+    </div>
+
+
+    {% endfor %}
+
+</div>

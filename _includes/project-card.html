@@ -1,0 +1,39 @@
+<div class="columns is-centered is-multiline is-mobile">
+  <h6 class="title has-text-white  is-uppercase ">
+    GitHub Projects
+  </h6>
+  <div class="project-container">
+    {% for project in site.data.projects %}
+    <div>
+
+      <div class="project-card">
+        <a href="{{project.link}}">
+          <h6 class="title has-text-white   ">
+            {{project.name}}
+          </h6>
+        </a>
+        <p class="project-description">{{project.description}}</p>
+        <div id="bottom">
+          <ul>
+
+            <li style="color:white; font-weight:200; font-size: 150">
+
+              <span class="{{project.lang}}">&#9679;
+              </span>
+
+              {{project.lang}}
+
+            </li>
+            <ul>
+        </div>
+
+
+
+      </div>
+
+
+
+    </div>
+    {% endfor %}
+  </div>
+</div>

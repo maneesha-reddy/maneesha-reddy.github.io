@@ -1,0 +1,49 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+  <section id="hero">
+    <div class="hero-body">
+
+      <div class="grid-container">
+        <div>
+          <div>
+
+            {% include about.html %}
+          </div>
+
+          <div>
+            {% include experience.html %}
+          </div>
+
+          <div>
+            {% include education.html %}
+          </div>
+
+          <div>
+            {% include techstack.html %}
+          </div>
+
+        </div>
+        <div>
+          {% include intro.html %}
+          {% include project-card.html %}
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+</body>
+
+
+</html>

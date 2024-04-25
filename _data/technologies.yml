@@ -1,0 +1,47 @@
+- name: Java
+- name: Python
+- name: Golang
+- name: C/C++
+- name: JavaScript
+- name: TypeScript
+- name: C#
+- name: SQL
+- name: React
+- name: Node.js
+- name: Django
+- name: Flask
+- name: Kubernetes
+- name: REST
+- name: HTML/CSS
+- name: Selenium
+- name: Socket.io
+- name: NGINX
+- name: Material-UI
+- name: Ansible
+- name: Springboot
+- name: AWS
+- name: Docker
+- name: MySQL
+- name: MongoDB
+- name: PostgreSQL
+- name: Kafka
+- name: ArgoCD
+- name: Machine Learning
+- name: Deep Learning
+- name: TensorFlow
+- name: scikit-learn
+- name: OpenCV
+- name: PyTorch
+- name: NLTK
+- name: Git CLI
+- name: GitHub
+- name: VS Code
+- name: Eclipse
+- name: UNIX/Linux
+- name: Windows
+- name: IntelliJ
+- name: Jenkins
+- name: BitBucket
+- name: PostMan
+- name: JIRA
+- name: Figma(UI)

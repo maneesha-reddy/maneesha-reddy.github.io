@@ -1,0 +1,32 @@
+- name: Real time Web application for stock trading
+  link: https://github.com/maneesha-reddy/QuantQAlgo
+  description: Crafted a web application using Django, React, SocketIO
+  lang: Javascript
+  color: #9A8D3E
+  tech:
+    - ReactJS
+    - Django
+    - SocketIo
+    - AWS
+
+- name: Imagedetection-gui
+  link: https://github.com/maneesha-reddy/imagedetection-gui
+  lang: Python
+  color: #3572A5
+  description: Implemented a neural network and created a gui with python.
+- name: Covid-19_infection-prediction
+  link: https://github.com/maneesha-reddy/Covid-19_infection-prediction
+  lang: Python
+  color: #3572A5
+  description: Using machine learning techniques, predicted the covid infection given a dataset
+
+- name: Face recognition using MTCNN and Facenet
+  lang: Python
+  color: #3572A5
+  link: https://github.com/maneesha-reddy/facerecognition-facenet
+  description: Developed an end to end application for face recognition using MTCNN and Facenet
+- name: Object Detection using retinanet
+  color: #3572A5
+  lang: Python
+  link: https://github.com/maneesha-reddy/ObjectDetection-retinanet
+  description: Detected objects using retinanet
