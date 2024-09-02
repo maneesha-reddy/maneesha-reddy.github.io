@@ -52,10 +52,10 @@
   background-color: var(--card-color);
   padding: 1rem;
   border-radius: 1rem;
-  margin: auto;
-  width: auto;
   margin-bottom: 1rem;
   align-items: center;
+  display: flex;
+  height: 100%;
 }
 
 .project-card {
@@ -74,14 +74,12 @@
 
 .about-card {
   justify-content: center;
+  align-items: center;
   background-color: var(--card-color);
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
   margin-left: 2rem;
-  display: flex;
-  align-items: center;
-  height: 100%;
 }
 .grid-container {
   display: grid;
