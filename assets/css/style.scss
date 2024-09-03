@@ -157,7 +157,7 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin-left: 18%;
-  //   left: 30%;
+  margin-top: 1rem;
 }
 
 td,
@@ -214,7 +214,7 @@ th {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  width: 250px;
   background-color: #0d0d0d;
   color: #fff;
   text-align: center;
