@@ -210,14 +210,13 @@ th {
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted #fff;
 }
 
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: #fff;
-  color: black;
+  background-color: #0d0d0d;
+  color: #fff;
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
